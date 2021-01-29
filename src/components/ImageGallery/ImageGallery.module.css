@@ -1,0 +1,63 @@
+.ImageGallery {
+    padding: 30px;
+    list-style: none;
+    z-index: 4;
+}
+
+/* ================== loader ============= */
+.Loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.CloseModal {
+    position: absolute;
+
+    top: 30px;
+    right: 50px;
+
+    padding: 10px;
+
+    outline: none;
+    border: none;
+
+    border-radius: 50%;
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
+.ToBeginning {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
+.LoarMoreBox {
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.LoadMore {
+    width: 150px;
+    height: 50px;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    background-color: #2f77eb;
+
+    box-shadow: -10px -10px 15px rgba(70,70,70,.3), 10px 10px 15px rgba(70,70,70,.3);
+
+}

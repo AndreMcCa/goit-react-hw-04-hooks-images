@@ -1,0 +1,32 @@
+.Form {
+    display: flex;
+    justify-content: center;
+}
+
+.Input {
+    width: 400px;
+    height: 50px;
+    padding: 5px 5px 5px 30px;
+    margin-right: 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    outline: none;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    color: #292e49;
+    background-color: #fff;
+    box-shadow: -10px -10px 15px rgba(70,70,70,.3), 10px 10px 15px rgba(70,70,70,.3);
+}
+
+.Button {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    color: #292e49;
+    background-color: #fff;
+    box-shadow: -10px -10px 15px rgba(70,70,70,.3), 10px 10px 15px rgba(70,70,70,.3);
+}
